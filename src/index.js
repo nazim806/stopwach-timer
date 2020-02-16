@@ -1,8 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import Timer from "./Timer";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles.css";
 
-import App from './App';
+class App extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <Timer />
+      </div>
+    );
+  }
+}
 
-
-ReactDOM.render(<App />, document.getElementById('root'));
-
+const rootElement = document.getElementById("root");
+ReactDOM.render(<App />, rootElement);
