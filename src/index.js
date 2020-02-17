@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Timer from "./Timer";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Form, Button } from "react-bootstrap";
+//import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
 class App extends React.Component {
